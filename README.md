@@ -1,6 +1,7 @@
 # Library Management System - Client-Server Architecture
 
 ## Project Information
+> Bonus Exam - Client-Server Refactoring
 - **Student Name:** รัฐจิกาลณ์ กวงคำ  
 - **Student ID:** 67543210063-3  
 - **Course:** ENGSE207 Software Architecture  
