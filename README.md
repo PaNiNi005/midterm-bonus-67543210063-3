@@ -125,4 +125,4 @@ http://localhost:8000
 
 ## 🖼 Screenshots
 
-Insert application screenshots here
+<img width="1916" height="908" alt="image" src="https://github.com/user-attachments/assets/0c6d9c70-cc18-4acd-ad03-954f2b88ae4b" />
