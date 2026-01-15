@@ -125,4 +125,8 @@ http://localhost:8000
 
 ## 🖼 Screenshots
 
-<img width="1916" height="908" alt="image" src="https://github.com/user-attachments/assets/0c6d9c70-cc18-4acd-ad03-954f2b88ae4b" />
+<img width="1901" height="939" alt="image" src="https://github.com/user-attachments/assets/8ebc52ad-e391-455d-9fe2-19362ed5bf70" />
+
+<img width="1906" height="943" alt="image" src="https://github.com/user-attachments/assets/f0729794-715a-48e4-87f4-4fae6bace514" />
+
+
