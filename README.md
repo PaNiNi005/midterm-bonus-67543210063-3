@@ -47,57 +47,82 @@
 
 <img width="458" height="786" alt="image" src="https://github.com/user-attachments/assets/ed13cb55-6a27-4f0d-879e-45c8b67bd215" />
 
-## ▶️ How to Run the Project
-🖥️ Backend (Server – VM)
+## 🚀 How to Run
+
+### 🖥 Backend (Server)
+
+**1. Clone repository**
+```
+git clone https://github.com/your-username/library-management-system.git
+```
+
+**2. Go to backend directory**
+```
 cd backend
+```
+
+**3. Install dependencies**
+```
 npm install
+```
+
+**4. Run server**
+```
 npm start
+```
 
+**Server runs at:**  
+http://localhost:3000
 
-- Server runs at:
-- http://localhost:3000
+---
 
-## 🌐 Frontend (Client – Local)
-- cd frontend
+### 🌐 Frontend (Client)
 
-- Method 1: Open directly
+**1. Go to frontend directory**
+```
+cd frontend
+```
 
-- Open index.html in your browser
+**Method 1: Open directly**
+- Open `index.html` in your browser
 
-- Method 2: Using Local Server
-- python3 -m http.server 8000
+**Method 2: Using Local Server**
+```
+python3 -m http.server 8000
+```
 
+**Open browser at:**  
+http://localhost:8000
 
-- Open browser at:
-- http://localhost:8000
+---
 
-##🔌 API Endpoints
-Method	Endpoint	Description
-GET	/api/books	Get all books
-GET	/api/books/:id	Get book by ID
-POST	/api/books	Create new book
-PUT	/api/books/:id	Update book
-DELETE	/api/books/:id	Delete book
-PATCH	/api/books/:id/borrow	Borrow a book
-PATCH	/api/books/:id/return	Return a book
-✨ Features
+## 🔌 API Endpoints
 
-Add / Edit / Delete books
+| Method | Endpoint | Description | Request Body (JSON) |
+|------|---------|------------|---------------------|
+| GET | `/api/books` | Get all books | – |
+| GET | `/api/books/:id` | Get book by ID | – |
+| POST | `/api/books` | Create a new book | `{ "title": "Book 1", "author": "Author 1", "isbn": "1234567890", "status": "available" }` |
+| PUT | `/api/books/:id` | Update book info | `{ "title": "Updated Title", "author": "New Author", "isbn": "0987654321", "status": "borrowed" }` |
+| PATCH | `/api/books/:id/borrow` | Update book status → borrowed | – |
+| PATCH | `/api/books/:id/return` | Update book status → available | – |
+| DELETE | `/api/books/:id` | Delete a book | – |
 
-Borrow & Return books
+---
 
-Filter books by status
+## ✨ Features
 
-All
+- 📚 Add / Edit / Delete books  
+- 🔄 Borrow & Return books  
+- 🔍 Filter books by status  
+  - All  
+  - Available  
+  - Borrowed  
+- 📊 Statistics Dashboard  
+- 📱 Responsive UI (Desktop & Mobile)
 
-Available
+---
 
-Borrowed
-
-Statistics Dashboard
-
-Responsive UI (Desktop & Mobile)
-
-## 🖼️ Screenshots
+## 🖼 Screenshots
 
 Insert application screenshots here
