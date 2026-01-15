@@ -49,9 +49,9 @@
 
 ## ▶️ How to Run the Project
 🖥️ Backend (Server – VM)
-- cd backend
-- npm install
-- npm start
+cd backend
+npm install
+npm start
 
 
 - Server runs at:
