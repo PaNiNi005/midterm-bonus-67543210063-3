@@ -47,31 +47,31 @@
 
 <img width="458" height="786" alt="image" src="https://github.com/user-attachments/assets/ed13cb55-6a27-4f0d-879e-45c8b67bd215" />
 
-▶️ How to Run the Project
+## ▶️ How to Run the Project
 🖥️ Backend (Server – VM)
-cd backend
-npm install
-npm start
+- cd backend
+- npm install
+- npm start
 
 
-Server runs at:
-http://localhost:3000
+- Server runs at:
+- http://localhost:3000
 
-🌐 Frontend (Client – Local)
-cd frontend
+## 🌐 Frontend (Client – Local)
+- cd frontend
 
-Method 1: Open directly
+- Method 1: Open directly
 
-Open index.html in your browser
+- Open index.html in your browser
 
-Method 2: Using Local Server
-python3 -m http.server 8000
+- Method 2: Using Local Server
+- python3 -m http.server 8000
 
 
-Open browser at:
-http://localhost:8000
+- Open browser at:
+- http://localhost:8000
 
-🔌 API Endpoints
+##🔌 API Endpoints
 Method	Endpoint	Description
 GET	/api/books	Get all books
 GET	/api/books/:id	Get book by ID
@@ -98,6 +98,6 @@ Statistics Dashboard
 
 Responsive UI (Desktop & Mobile)
 
-🖼️ Screenshots
+## 🖼️ Screenshots
 
 Insert application screenshots here
